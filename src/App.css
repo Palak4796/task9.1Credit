@@ -1,0 +1,38 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+bbody {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif; /* Set a default font */
+    background: none; /* Remove default background */
+}
+
+/* You can keep specific backgrounds for other pages as needed */
+
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+h2, p {
+    margin: 10px 0; 
+}
+
+a {
+    color: #007bff;
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
